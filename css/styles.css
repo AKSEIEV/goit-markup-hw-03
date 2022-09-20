@@ -29,6 +29,7 @@ li {
   border-radius: 4px;
   width: 216px;
   height: 50px;
+  margin: 0 auto;
 }
 
 .btn-portfolio {
@@ -68,6 +69,7 @@ body {
 }
 /* ----------------------main------------------------------- */
 
+
 .link-header {
   color: var(--top-color);
   font-weight: 500;
@@ -89,6 +91,9 @@ body {
 .list-work li {
   display: inline;
 }
+
+
+
 
 /* ------------------Psevdoklasi tipa------------------------------ */
 
@@ -231,3 +236,8 @@ footer {
   --big-fon-color: #ffffff;
   --acent-color: #2196f3;
 }
+
+.box {
+}
+
+
