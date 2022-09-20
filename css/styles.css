@@ -29,7 +29,6 @@ li {
   border-radius: 4px;
   width: 216px;
   height: 50px;
-  margin: 0 auto;
 }
 
 .btn-portfolio {
@@ -45,8 +44,9 @@ li {
   border-radius: 4px;
   width: 125px;
   height: 38px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+   0px 1px 2px rgba(0, 0, 0, 0.08),
+   0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-btn-portfolio li {
@@ -54,6 +54,7 @@ li {
   display: inline;
   padding: 3px;
 }
+
 
 button:hover,
 button:focus {
@@ -68,7 +69,6 @@ body {
   color: var(--top-color);
 }
 /* ----------------------main------------------------------- */
-
 
 .link-header {
   color: var(--top-color);
@@ -90,10 +90,7 @@ body {
 /* margin-right: vidstypu mig IMG */
 .list-work li {
   display: inline;
-  margin-right:30px;
 }
-
-
 
 
 /* ------------------Psevdoklasi tipa------------------------------ */
@@ -238,7 +235,6 @@ footer {
   --acent-color: #2196f3;
 }
 
-.box {
-}
+
 
 
