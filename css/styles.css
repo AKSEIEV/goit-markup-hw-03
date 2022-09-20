@@ -90,6 +90,7 @@ body {
 /* margin-right: vidstypu mig IMG */
 .list-work li {
   display: inline;
+  margin-right:30px;
 }
 
 
