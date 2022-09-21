@@ -24,12 +24,12 @@ li {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  margin: 0 auto;
-  margin-top: 30px;
   display: block;
   border-radius: 4px;
   width: 216px;
   height: 50px;
+  margin: 0 auto;
+ 
 }
 
 .btn-portfolio {
