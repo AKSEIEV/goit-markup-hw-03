@@ -25,6 +25,7 @@ li {
   letter-spacing: 0.06em;
   cursor: pointer;
   margin: 0 auto;
+  margin-top: 30px;
   display: block;
   border-radius: 4px;
   width: 216px;
@@ -124,6 +125,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.header {
+  background: #2F303A;
 }
 
 /* ---------------------------------h2------------- */
@@ -234,6 +239,7 @@ footer {
   --big-fon-color: #ffffff;
   --acent-color: #2196f3;
 }
+
 
 
 
