@@ -7,6 +7,17 @@
 
 /* knopka- hover i fokus pohodu100%*/
 /*--------------------------------- head------------------ */
+.list-header {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.link-header {
+  padding: 20px;
+  display: inline-block;
+}
+
 .header {
   background-color: var(--top-color);
   max-width: 1600px;
@@ -26,9 +37,6 @@
   width: 216px;
   height: 50px;
   margin: 0 auto;
-  display: block;
-  text-align: center;
-  padding-bottom: 200px;
  }
 
  li {
@@ -62,11 +70,15 @@ h5 {
    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+
+
 .list-btn-portfolio li {
   margin-right: 8px;
   display: inline;
   padding: 3px;
+  text-align: center;
 }
+
 
 
 button:hover,
@@ -82,7 +94,12 @@ body {
   color: var(--top-color);
 }
 /* ----------------------main------------------------------- */
-
+.list-main {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  
+}
 .link-header {
   color: var(--top-color);
   font-weight: 500;
@@ -103,6 +120,14 @@ body {
 /* margin-right: vidstypu mig IMG */
 .list-work li {
   display: inline;
+}
+
+.working {
+  text-align: center;
+}
+
+.list-team {
+  display: flex;
 }
 
 
@@ -137,7 +162,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   max-width: 696px;
   margin: 0 auto;
 }
@@ -145,6 +169,8 @@ body {
 .header {
   background: #2F303A;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* ---------------------------------h2------------- */
@@ -199,6 +225,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--big-fon-color);
+  width: 231px;
+height: 21px;
 }
 
 /* --------------------------footer----------------- */
@@ -258,6 +286,17 @@ footer {
   --top-color: #212121;
   --big-fon-color: #ffffff;
   --acent-color: #2196f3;
+}
+
+.container {
+width: 1630px;
+padding-left: 15px;
+padding-right: 15px;
+max-width: 1630px;
+}
+
+.footer {
+  max-width: 1600px;
 }
 
 
