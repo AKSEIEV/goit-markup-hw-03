@@ -9,10 +9,8 @@
 /*--------------------------------- head------------------ */
 .header {
   background-color: var(--top-color);
-}
-
-li {
-  list-style-type: none;
+  max-width: 1600px;
+  text-align: center;
 }
 
 .btn {
@@ -24,12 +22,26 @@ li {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  display: block;
   border-radius: 4px;
   width: 216px;
   height: 50px;
   margin: 0 auto;
- 
+  display: block;
+  text-align: center;
+  padding-bottom: 200px;
+ }
+
+ li {
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
 }
 
 .btn-portfolio {
@@ -125,10 +137,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
+  max-width: 696px;
+  margin: 0 auto;
 }
 
 .header {
   background: #2F303A;
+  text-align: center;
 }
 
 /* ---------------------------------h2------------- */
@@ -219,6 +235,10 @@ footer {
 }
 
 /* ---------------------------h3 portfolio--------------------------- */
+.box {
+  display: inline-block;
+  margin: 30px;
+}
 .title-portfolio {
   font-size: 18px;
   line-height: 2;
