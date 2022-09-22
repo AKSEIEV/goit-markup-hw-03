@@ -92,10 +92,7 @@ body {
   margin-left: 40px;
 }
 
-.link-header {
-  padding: 20px;
-  display: inline-block;
-}
+
 
 .header {
   background-color: var(--top-color);
@@ -104,22 +101,32 @@ body {
 }
 
 .main-nav {
-  display: flex;
+  
+  width: 1600px;
+height: 80px;
+display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
+
 }
 
 .list-main {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
   }
 
- .link-tel{
+  .link-header {
+    padding: 20px;
+    display: block;
+  }
+
+ .link-tel {
   display: block;
   display: flex;
-  margin: auto;
+  margin-left: 344px;
+  margin-right: 215px;
  } 
+
 .link-header {
   color: var(--top-color);
   font-weight: 500;
@@ -136,6 +143,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-left: 50px;
 }
 /* margin-right: vidstypu mig IMG */
 .list-work li {
@@ -283,10 +291,25 @@ footer {
 }
 
 /* ---------------------------h3 portfolio--------------------------- */
-.box {
-  display: inline-block;
-  margin: 30px;
+.test-container {
+ width: 1230;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-left: auto;
+ margin-right: auto;
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 370px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
 .title-portfolio {
   font-size: 18px;
   line-height: 2;
@@ -309,10 +332,10 @@ footer {
 }
 
 .container {
-width: 1630px;
+width: 1600px;
 padding-left: 15px;
 padding-right: 15px;
-max-width: 1630px;
+max-width: 1600px;
 }
 
 .footer {
