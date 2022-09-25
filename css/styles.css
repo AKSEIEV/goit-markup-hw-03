@@ -276,8 +276,9 @@ img {
 .flex-work {
   display: flex;
   align-items: center;
-  margin-top: 118px;
+  margin-top: 50px;
   gap: 30px;
+  
 }
 
 .flex-team {
@@ -287,6 +288,7 @@ img {
   display: flex;
   gap: 30px;
   padding-bottom: 94px;
+  justify-content: center;
   }
 
 /* ----------------------------h3 tiny------------------ */
