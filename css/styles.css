@@ -86,8 +86,6 @@ body {
   display: block;
   display: flex;
   justify-content: center;
-  max-width: 1200px;
-  margin-left: 215px;
 }
 
 
@@ -106,7 +104,6 @@ body {
 
 .header {
   background-color: var(--top-color);
-  max-width: 1600px;
   text-align: center;
 }
 
@@ -124,6 +121,10 @@ body {
   display: flex;
   gap: 30px;
   }
+
+.list-main li{
+  width: 270px;
+}
 
   .link-header {
     padding: 20px;
@@ -345,6 +346,7 @@ footer {
   letter-spacing: 0.03em;
   color: var(--acent-color);
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .logo-footer-accent {
@@ -433,12 +435,14 @@ outline: 2px solid tomato;
 }
 
 .footer-container {
-  width: 1600px;
-}
+  background-color: #2f303a;
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  }
 
 .footer {
-  width: 1600px;
-  margin-left: 215px;
+ 
 }
 
 .list-btn-portfolio {
