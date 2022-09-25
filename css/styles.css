@@ -160,6 +160,11 @@ body {
   display: inline;
 }
 
+.list-work {
+  display: block;
+  display: flex;
+}
+
 .working {
   text-align: center;
   display: block;
@@ -348,6 +353,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  background-color: tomato;
 }
 
 .box {
@@ -410,11 +416,12 @@ text-align: center;
   margin-top: 94px;
 }
 
+
 .box-mini {
   display: block;
   padding-top: 30px;
-  padding-left: 24px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .section {
@@ -425,6 +432,8 @@ text-align: center;
 .list-team {
   background: #F5F4FA;
   max-width: 1600px;
+  display: flex;
+  gap: 30px;
   }
 
 
