@@ -111,15 +111,13 @@ body {
 }
 
 .main-nav {
-  width: 1200px;
+  
+  text-align: center;
   height: 80px;
   display: flex;
   align-items: center;
-  margin-left: 215px;
+  justify-content: center;
   }
-
-
-
 
 .list-main {
   list-style: none;
@@ -283,7 +281,6 @@ img {
 
 .flex-team {
   background: #F5F4FA;
-  max-width: 1600px;
   display:block;
   display: flex;
   gap: 30px;
