@@ -262,7 +262,7 @@ body {
 .list-item {
   display: contents;
   gab: 30px;
-
+  padding-bottom: 94px;
 }
 
 
@@ -286,6 +286,7 @@ img {
   display:block;
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
   }
 
 /* ----------------------------h3 tiny------------------ */
@@ -353,8 +354,11 @@ footer {
 
 .item-team {
   padding-top: 30px;
-  margin-bottom: 10px;
   text-align: center;
+}
+
+.item-team img {
+  border-radius: 0px;
 }
 
 .item-team-mini {
@@ -454,8 +458,20 @@ outline: 2px solid tomato;
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
   width: 370px;
   border: 1px solid #EEEEEE;
+}
+
+.border-item {
+   display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    width: auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: #FFFFFF;
 }
 
 .section {
