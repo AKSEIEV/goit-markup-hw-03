@@ -124,6 +124,7 @@ body {
 .list-main {
   list-style: none;
   display: flex;
+  gap: 30px;
   }
 
   .link-header {
@@ -167,13 +168,20 @@ body {
   margin:0;
 }
 
+* {
+  box-sizing: border-box;
+}
 
+.list {
+  list-style: none;
+}
 
 .title-main-medium {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-align: center;
   }
 
 .container-team {
@@ -251,6 +259,12 @@ body {
   padding-top: 94px;
 }
 
+.list-item {
+  display: contents;
+  gab: 30px;
+
+}
+
 
 
 img {
@@ -260,8 +274,6 @@ img {
 }
 
 .flex-work {
-  text-align: center;
-  display: block;
   display: flex;
   align-items: center;
   margin-top: 118px;
@@ -442,7 +454,6 @@ outline: 2px solid tomato;
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 24px;
   width: 370px;
   border: 1px solid #EEEEEE;
 }
