@@ -9,11 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
   </head>
   <body>
-    <header class="">
-      <div class="container">
+    <header>
+      <div>
       <!-- верх_свmерх захоловок і т д -->
       <nav class="main-nav">
         <a class="logo-header" href="WebStudio">Web<span class="logo-header-accent">Studio</span> </a>
@@ -78,11 +79,14 @@
 
       <section class="working">
         <div class="container">
-        <ul class="list-work">
+        <ul class="list-work container">
           <li><h2 class="title-main-medium">Чим ми займаємося</h2></li>
-          <li><img src="./img/workIII/1.jpg" alt="work" width="370" height="294" /></li>
-          <li><img src="./img/workIII/2.jpg" alt="work" width="370" height="294" /></li>
-          <li><img src="./img/workIII/3.jpg" alt="work" width="370" height="294" /></li>
+          <div class="flex-work">
+            <li><img src="./img/workIII/1.jpg" alt="work" width="370" height="294" /></li>
+            <li><img src="./img/workIII/2.jpg" alt="work" width="370" height="294" /></li>
+            <li><img src="./img/workIII/3.jpg" alt="work" width="370" height="294" /></li>
+          </div>
+          
           </ul>
         </div>
       </section>
@@ -91,8 +95,8 @@
         <div class="container">
           <h2 class="title-main-medium">Наша команда</h2>
         </div>
-        <div class="container">
-        <ul class="list-team">
+        <div class="flex-team container">
+        <ul class="list-item">
           <li>
             <div class="item-team">
               <img
