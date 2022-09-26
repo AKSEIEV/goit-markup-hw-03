@@ -374,6 +374,9 @@ footer {
   font-style: normal;
 }
 
+.link-footer a:not(:last-child) {
+  margin-bottom: 9px;
+}
 /* ---------------------------h3 portfolio--------------------------- */
 
 
