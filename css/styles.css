@@ -249,6 +249,7 @@ body {
 .list-team {
   background: #F5F4FA;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .list-item {
@@ -279,7 +280,6 @@ img {
   display:block;
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
   justify-content: center;
   }
 
