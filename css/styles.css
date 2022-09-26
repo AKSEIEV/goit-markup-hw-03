@@ -109,7 +109,6 @@ body {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
   }
 
 .list-main {
@@ -123,14 +122,14 @@ body {
 }
 
   .link-header {
-    padding: 20px;
+    padding: 25px;
     display: block;
   }
 
  .link-tel {
   display: block;
   display: flex;
-  margin-left: 344px;
+  margin-left: auto;
  } 
 
 .link-header {
@@ -156,14 +155,10 @@ body {
 /* margin-right: vidstypu mig IMG */
 
 .working {
-  padding-top: 118px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.list-work {
-  padding: 0;
-  margin:0;
-}
 
 * {
   box-sizing: border-box;
@@ -270,12 +265,13 @@ img {
   height: auto;
 }
 
-.flex-work {
+.list-work {
+  padding: 0;
+  margin:0;
   display: flex;
   align-items: center;
   margin-top: 50px;
   gap: 30px;
-  
 }
 
 .flex-team {
@@ -311,6 +307,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--acent-color);
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .logo-header-accent {
