@@ -317,23 +317,13 @@ img {
   color: var(--top-color);
 }
 
-.address {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--big-fon-color);
-  width: 231px;
-  height: 21px;
-}
+
 
 /* --------------------------footer----------------- */
 footer {
   background-color: var(--top-color);
 }
 
-.address {
-  font-style: normal;
-}
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -365,6 +355,21 @@ footer {
  text-align: center;
 }
 
+.address-address {
+  margin-top: 20px;
+}
+
+.sity {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--big-fon-color);
+  /* width: 231px;
+  height: 21px; */
+  font-style: normal;
+  text-decoration: none;
+}
+
 .link-footer {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -374,7 +379,8 @@ footer {
   font-style: normal;
 }
 
-.link-footer a:not(:last-child) {
+
+.list-footer:not(:last-child) {
   margin-bottom: 9px;
 }
 /* ---------------------------h3 portfolio--------------------------- */
